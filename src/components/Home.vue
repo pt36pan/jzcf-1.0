@@ -160,7 +160,7 @@
         if (data.dialogType === 0) {
           console.log('关闭弹窗');
           let params = data.params;
-          let url = 'http://api.jisuapi.com/illegal/query?appkey=e8fe74557b878da8&carorg=' + params.carorg + '&lsprefix=' + params.lsprefix + '&lsnum=' + params.lsnum + '&lstype=' + params.lstype + '&frameno=6&engineno=' + params.engineno + '&iscity=1'
+          let url = 'https://api.jisuapi.com/illegal/query?appkey=e8fe74557b878da8&carorg=' + params.carorg + '&lsprefix=' + params.lsprefix + '&lsnum=' + params.lsnum + '&lstype=' + params.lstype + '&frameno=6&engineno=' + params.engineno + '&iscity=1'
           let _this = this;
           _this.loading = true;
           _this.$http.get(url)
